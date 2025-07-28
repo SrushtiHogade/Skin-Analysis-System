@@ -10,28 +10,28 @@ Acne Concern Level
 Based on these, relevant products are recommended using cosine similarity, prioritizing the ones that match the user's skin profile.
 
 ## Working:
-1. Image Input
-The user is prompted to click a selfie via webcam.
+1. Image Input:
+   The user is prompted to click a selfie via webcam.
 
-Real-time face detection ensures:
+   Real-time face detection ensures:
 
-Only one face is visible
+   Only one face is visible
 
-Good lighting
+   Good lighting
 
-Face occupies most of the frame
+   Face occupies most of the frame
 
-After capturing, the user is redirected to the next step.
+   After capturing, the user is redirected to the next step.
 
 2. form – Skin Info Confirmation
-Extracted skin details are prefilled in a form.
+   Extracted skin details are prefilled in a form.
 
-The user can modify these values or add more concerns.
+   The user can modify these values or add more concerns.
 
-Submitting redirects to the recommendations page.
+   Submitting redirects to the recommendations page.
 
 3. recs – Product Recommendations
-Top relevant products are shown in card layout.
+   Top relevant products are shown in card layout.
 
 ## Model Architechture:
 *Skin Tone Detection*
