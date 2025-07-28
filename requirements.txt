@@ -1,0 +1,11 @@
+Flask
+tensorflow
+tensorflow-hub
+youtube-transcript-api
+sumy
+numpy
+pandas
+opencv-python
+Pillow
+scikit-learn
+requests
